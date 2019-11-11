@@ -1,0 +1,18 @@
+* { box-sizing:border-box; }
+
+body { font-family:Helvetica; margin:0px; }
+
+.container { width:75%; margin:0px auto; }
+
+header { border-bottom:2px solid; padding:1rem 0rem; }
+
+header h1 { margin:0px; display:inline-block; }
+
+.contact-info { float:right; width:15%; }
+
+.contact-info p { margin:0px; }
+
+header span { color:#2C6869; }
+
+
+main { background-color:yellow; }
