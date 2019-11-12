@@ -2,17 +2,54 @@
 
 body { font-family:Helvetica; margin:0px; }
 
-.container { width:75%; margin:0px auto; }
+.container { width:55%; margin:0px auto; }
 
-header { border-bottom:2px solid; padding:1rem 0rem; }
+header { display:inline-block; width:100%; border-bottom:2px solid; padding-top:1rem; }
 
 header h1 { margin:0px; display:inline-block; }
 
-.contact-info { float:right; width:15%; }
+.contact-info { float:right; width:20%; }
 
 .contact-info p { margin:0px; }
 
-header span { color:#2C6869; }
+header span { color:#419A9C; }
 
 
-main { background-color:yellow; }
+main { font-size:14px; }
+
+main .experience-container { display:inline-block; margin:1rem 0rem; }
+
+.experience { float:left; width:80%; margin-right:0.5rem; background-color:#e8e8e8; }
+
+section h2, .sections-container section h2 { margin:0.5rem 0rem 0rem; border-bottom:1px solid; padding:0rem 1rem; }
+
+ul { list-style-type:none; padding:0px; margin:0px; }
+
+h3, h4, p { margin:0px; }
+
+li { display:inline-block; }
+
+.date { display:inline-block; padding: 0rem 1rem; position:relative; top:2.5rem; }
+
+.company-info { display:inline-block; width:92%; padding:1rem; float:right; border-left:1px solid; }
+
+.company-info h3, .education h3, .leadership-experience h3 { color:#419A9C; }
+
+.sections-container { display:inline-block; width:calc(20% - 0.5rem); }
+
+.sections-container section:last-child { margin:0px;}
+
+.objective, .education, .leadership { margin-bottom:1rem; background-color:#e8e8e8; display:inline-block; width:100%; }
+
+.objective p, .education div, .leadership div { padding:0.5rem; }
+
+.charity { background-color:#e8e8e8; clear:both; display:inline-block; width:100%; }
+
+.charity .company-info { display:inline-block; width:93.5%; padding:1rem; float:right; border-left:1px solid; }
+
+
+
+footer { margin-top:1rem; text-align:center; padding:0.5rem 1rem; }
+
+footer p, footer div { display:inline-block;}
+
